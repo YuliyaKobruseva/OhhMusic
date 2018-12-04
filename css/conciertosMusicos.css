@@ -1,0 +1,101 @@
+* {box-sizing: border-box}
+
+.contenido{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.botones {    
+    float: left;    
+    background-color: #B1DDD5;    
+    min-height: 100%;
+    position: relative;
+    max-width: 350px;
+    margin: 50px auto 0 30px;
+    transform: perspective(3000px) rotateY(29deg);
+}
+
+.botones button {
+    display: block;
+    background-color: #70C1B3;
+    color: #2D072B;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 25px;
+    box-shadow: -12px 11px 1px #CBE8E3;
+    font-family:'Texto';
+}
+
+.botones:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -22px;
+    top: 22px;
+    background: #B1DDD5;
+    z-index: -1;
+}
+
+.botones button:hover {
+    background-color: #B2DBBF;
+}
+
+.botones button.active {
+    background-color: #97D1C7;
+}
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 65%;
+    border-left: none;
+    min-height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tabcontent table{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hr{
+    width: 90%;
+    border: 3px solid #4bceb4; 
+    border-radius: 200px /8px; 
+    height: 0px; 
+    text-align: center; 
+    display: inline-block;
+}
+
+.tabcontent table button{
+    border-radius: 2px;
+    background-color: #85BFB1;
+    font-size:12px;       
+    font-weight:bold;
+    color:#36213E;        
+    border:0px;
+    width:150px;
+    height:30px;    
+}
+
+.tabcontent table i{        
+    margin: 5px;
+    font-size: 1.5em;
+    color: #382C47;
+}
+
+.nav {
+    width: 360px;
+}
+
+@font-face {
+    font-family: 'Texto';
+    src: url('Quesha.ttf');
+}

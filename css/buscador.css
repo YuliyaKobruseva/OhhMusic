@@ -1,0 +1,86 @@
+#resultadolocal input[type="submit"],#resultadomusico input[type="submit"]{
+    background: transparent;
+    border: none;
+    font-family: 'Texto';
+    font-size: 25px;
+}
+
+#titulo h1{
+    margin-top: 25px;    
+}
+
+h2{
+    font-family: "H1";
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #510C4E;
+}
+
+#foto{
+    display: inline-block;
+    width: 20%; 
+    margin-left: 20px;
+}
+
+#table{
+    display: inline-block;
+    width: 30%;
+}
+
+#table table td{
+    width: 150px;
+}
+
+table{
+    font-size: 25px;
+    width: 100%;   
+}
+
+.contenido #concierto{
+    text-align: center;
+    width: 90%;
+    background-color: rgba(156, 213, 204, 0.3);
+    min-height: 20%;
+}
+
+.contenido{
+    margin-top: 20px;
+    min-height: 70%;
+}
+
+.hr { 
+    display: inline-block;
+    border: 3px solid #4bceb4; 
+    border-radius: 200px /8px; 
+    height: 0px; 
+    text-align: center; 
+    width: 80%;   
+    margin-bottom: 10px;
+}
+
+#datosConcierto{
+    text-align: center;
+    margin-top: 20px;
+    min-height: 20%;
+}
+
+#datosConcierto table{
+    margin-left: 50px;
+}
+
+#atras{    
+    border-radius: 2px;
+    background-color: #85BFB1;
+    font-size:15px;       
+    font-weight:bold;
+    color:#36213E;        
+    border:0px;
+    width:150px;
+    height:30px;
+    margin: 20px 0 0 60px;
+}
+
+#table h1{
+    font-family: 'Texto';
+    font-size: 30px;
+}

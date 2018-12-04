@@ -1,0 +1,71 @@
+section{
+    width: 100%; 
+    min-height: 100%;
+}
+
+#titulo{
+    width: 65%;
+}
+
+/*Estilo caja de bienbenido*/
+.usuario {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;   
+}
+
+.usuario p{
+    font-size: 25px;
+    color: #4bceb4;
+}
+
+#imgPefil{
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+}
+
+/*Estilo boton cerrar secion*/
+[id="input"]{    
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #85BFB1;
+    font-size:15px;       
+    font-weight:bold;
+    color:#36213E;        
+    border:0px;
+    width:150px;
+    height:30px;
+    margin: 20px 0 0 60px;
+}
+
+[id="input"]:hover{
+    background-color: #F9C3BA;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+}
+
+.hr { 
+    display:inline-block;
+    border: 3px solid #4bceb4; 
+    border-radius: 200px /8px; 
+    height: 0px; 
+    text-align: center; 
+    width: 80%;    
+}
+
+table tr td>button{
+    cursor:pointer;
+}

@@ -1,0 +1,74 @@
+section{
+    min-height: 60%;
+}
+
+#contenido{    
+    background-color: rgba(156, 213, 204, 0.3);
+    width: 80%;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 30px;    
+}
+
+h1{
+    margin: 20px;
+}
+
+#titulo h1{
+    margin-top: 25px;
+}
+
+.usuario{
+    margin-top: 45px;
+}
+
+.hr{
+    border: 2px solid #36213E; 
+    border-radius: 100px /8px; 
+    height: 0px; 
+    text-align: center; 
+    margin-bottom: 20px;
+    width: 80%;
+    display: inline-block;
+}
+
+#contenido ul{
+    text-align: left;
+    list-style: none;
+}
+
+#contenido ul li{
+    margin: 10px;
+}
+
+#contenido ul li label{
+    width: 200px;
+}
+#contenido form{
+    margin-left: 300px;
+    background: url(../img/music.png) no-repeat;
+    background-position: right;
+
+}
+
+#contenido form input, select{
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #85BFB1;
+    font-size:15px;       
+    font-weight:bold;
+    color:#36213E;        
+    border:0px;
+    width:200px;
+    height:30px;
+    margin: 10px 0 0 30px;
+}
+
+table tr td:nth-child(1) {
+    width: 80px;  
+    text-align: right;
+}
+
+table{
+    font-size: 25px;
+}

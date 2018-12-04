@@ -1,0 +1,77 @@
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    min-height: 100%; 
+    overflow: auto;    
+    background-color: rgba(0,0,0,0.4); 
+    text-align: center;
+}
+
+.modal-content {
+    background-color: rgba(156, 213, 204, 0.9);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    text-align: center;
+}
+
+.modal-content table{
+    margin: 0 auto;
+}
+
+.modal-content table button{
+    padding: 5px;
+    border-radius: 2px;
+    background-color: transparent;
+    font-size:10px;       
+    font-weight:bold;
+    color:#36213E;        
+    border:0px;
+    width:100px;
+    height:30px;
+    margin-left: 30px;
+}
+
+.modal-content table i{        
+    margin: 5px;
+    font-size: 1.5em;
+}
+
+.modal-content table td button:nth-child(2) i{        
+    color: #F15B42;
+}
+
+.modal-content table td button:first-child i{        
+    color: #0099cc;
+}
+
+.hr { 
+    border: 2px solid #36213E; 
+    border-radius: 100px /8px; 
+    height: 0px; 
+    text-align: center; 
+    margin: 5px;
+    display: inline-block;
+}
+
+/* Boton cerrar */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+

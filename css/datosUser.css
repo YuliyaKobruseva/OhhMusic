@@ -1,0 +1,79 @@
+#form{
+    background-color: none;
+    width: 90%;
+    margin: 10px 0 10px 40px;
+    padding: 20px;
+    overflow: hidden;
+    border: none;      
+    text-align: left;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3) ;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3) ;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3) ;
+}
+
+#form input, select, #provincia, #ciudad, #gender, #date{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #85BFB1;    
+    color:#36213E; 
+    padding: 0 15px;
+    margin: 10px 5px 15px 5px; 
+    overflow: hidden;
+    position:relative;
+    border: none;      
+}
+
+#form #imagen{
+    width: 350px; 
+    padding-top: 10px;
+}
+
+#divCiudad{
+    width: 350px;   
+    margin-left: 20px;
+}
+
+#form input[type="radio"]{
+    width: 30px;
+}
+
+#form #btnCrearPerf{
+    margin-left: 500px;  
+    padding-bottom: 35px;
+}
+
+#form #sex{
+    height: 15px;
+    background-color: #36213E;
+}
+
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #36213E;
+}
+
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #95a5a6;    
+    border:none;    
+    margin: 10px;
+}
+
+input[type="date"], focus {
+    color: #95a5a6;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}

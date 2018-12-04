@@ -1,0 +1,148 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    background: url(../bien.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-family:'Texto';
+    font-size: 25px;
+    color: #2D072B;
+}
+
+body h1{
+    font-family:'H1';  
+    font-size: 20px;
+    margin: 15px;
+    color: #510C4E;
+    letter-spacing: 5px;
+}
+
+div, header,section, article, h1, p{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top:0px;
+    left:0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Estilo para header*/
+#encabezado{    
+    display: block;
+    height: 100px;
+    margin-top: -5px;
+}
+
+#titulo{
+    width: 65%;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#titulo h1{
+    font-family: 'Titulo_pagina';
+    font-size: 70px;    
+    background-image: url("../fondoOhhMusic.gif");    
+    background-size: contain;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;        
+    line-height: 0.99;
+    margin: 5px 0 3px 0;
+}
+
+/*Estilo para el pie de pagina*/
+#pie{
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin: 20px;
+    
+}
+
+footer h6{
+    margin: 0;
+    color:#3bc1a0;
+}
+
+/*Estilo iconos de redes sociales*/
+.social {
+    list-style-type: none;
+    padding: 0;    
+    background-color:none; 
+    margin: 20px;
+}
+
+.social li{
+    display: inline;    
+}
+
+.social li a {    
+    color: #009999;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;   
+}
+
+li i:hover {
+    transform: scale(1.5);
+}
+
+/*Estilo para boton ir arriba*/
+#arriba {
+    display: none;
+    background: #009999;
+    border: none;
+    border-radius: 20px;
+    position: fixed;
+    right: 55px;
+    bottom:30px;
+    z-index: 9;
+    text-align: center;
+}
+
+#arriba:hover {
+    background-color: #ff9585;    
+}
+
+#arriba i{
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 10px 10px 10px;
+
+}
+#perfil{
+    width: 15%;
+    float:right;
+}
+
+#perfil a>i{   
+    color: #36213E;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Titulo_pagina';
+    src: url('FoglihtenNo07calt.otf');
+}
+
+@font-face {
+    font-family: 'H1';
+    src: url('NewFont-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Texto';
+    src: url('Quesha.ttf');
+}

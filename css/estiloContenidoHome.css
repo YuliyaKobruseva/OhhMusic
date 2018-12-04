@@ -1,0 +1,248 @@
+/*Estilo de caja login-registro*/
+.login{
+    width: 25%;
+    display: inline-block;
+    text-align: right;    
+    float: right;
+}
+
+/*Estilo para los botones*/
+#myLink, #myBtn {
+    display: inline-block;
+    position: relative; 
+    margin: 20px;
+    padding: 5px 5px;   
+    color: #009999;
+    transition: .15s ease-out;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#myBtn {color: #ff9585;}
+#myLink:before, #myBtn:before {
+    content:"";
+    position: absolute;
+    top: -6px;
+    left: 0;
+    height: calc(100% + 12px);
+    width: 100%;
+    border: 2px solid #009999;
+    box-sizing: border-box;
+    transition: .2s ease-in-out;
+}
+#myBtn:before {border: 2px solid #ff9585;}
+#myLink:after, #myBtn:after {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -8px;
+    height: 100%;
+    width: calc(100% + 16px);
+    border: 1px solid #009999;
+    box-sizing: border-box;
+    transition: .2s ease-in-out;
+}
+#myBtn:after {border: 1px solid #ff9585;}
+#myLink:hover:before, #myBtn:hover:before {
+    top: 0;
+    left: -8px;
+    height: 100%;
+    width: calc(100% + 16px);
+}
+#myLink:hover:after, #myBtn:hover:after {
+    top: -6px;
+    left: 0;
+    height: calc(100% + 12px);
+    width: 100%;
+}
+
+/*Estilos de caja modal_ login-registrarse*/
+.modal{
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;    
+    background-color: rgba(0,0,0,0.4); 
+    text-align: center;
+}
+
+.modal-content {
+    background-color: rgba(0, 153, 153, 0.9);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgba(0, 153, 153, 0.9);
+    width: 30%;
+    text-align: center;
+}
+
+#myModalButton .modal-content{
+    background-color: rgba(255, 204, 204, 0.9);
+    border: 1px solid rgba(255, 204, 204, 0.9);    
+}
+
+.modal-content form{
+    text-align: center;
+    color:#510C4E;
+}
+.modal-content form h3{
+    color:#510C4E;
+}
+.modal-content input[type="password"], input[type="email"], input[type="text"], input[type="submit"], 
+input[type="url"], input[type="number"] {   
+    width: 50%;
+    display: inline-block;
+    padding: 0 15px;
+    margin: 10px 0 15px;
+    border-width: 0;
+    line-height: 40px;
+    border-radius: 20px;    
+    background-color: rgba(123, 121, 111, 0.5);
+    outline: none;
+    color: #510C4E;
+}
+
+.closeLink, .closeBtn {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeLink:hover,.closeLink:focus, .closeBtn:hover,.close:focus  {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hr { 
+    display: inline-block;
+    border: 3px solid #4bceb4; 
+    border-radius: 200px /8px; 
+    height: 0px; 
+    text-align: center; 
+    width: 80%;    
+} 
+
+#myModalButton .hr{
+    border-color: #ff6666;
+}
+
+.popup_box {    
+    text-align: right;
+    width: 100%;
+}
+
+/*Estilo para ranking*/
+.ranking {
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 100%; 
+    
+}
+
+.ranking table{
+    width: 100%;
+}
+
+/*Estilo contenido principal*/
+.contenido{    
+    width: 75%;
+    min-height: 300px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 10px;        
+    background-color: rgba(156, 213, 204, 0.3);
+}
+
+#topList{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(156, 213, 204, 0.3);
+    min-height: 324px;
+}
+
+/*Estilo slider anuncios*/
+#slider{
+    margin-top: 40px;
+    text-align: center;
+}
+.responsive{
+    display: inline-block !important;
+    width: 85%;
+    /*    float: right;*/
+}
+
+/*Estilo de imagenes slick*/
+.responsive img{
+    width: 250px;
+    height: 200px;
+    margin-right: 0;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* Para IE8 and versiones anteriores */
+}
+
+.responsive img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* Para IE8 and versiones anteriores */
+}
+
+/*Estilo placeholder*/
+::placeholder {
+    color: #510C4E;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+}
+
+section{
+    margin-top: 20px;
+    min-height: 60%;
+}
+
+.slick-prev{
+    left: -3.7% !important;
+}
+
+#perfil img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+#perfil div{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+#perfil a{
+    margin-top: 3px;
+}
+
+#perfil form input[type="submit"]{
+    background:transparent;
+    font-size:15px;       
+    font-weight:bold;
+    color:#36213E;        
+    border:0px;
+    width:100%;
+    height:30px;
+    margin: 0;
+}
+
+#perfil form{
+    width: 115px;
+    display: inline-block;
+}

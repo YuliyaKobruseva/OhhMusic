@@ -1,0 +1,68 @@
+#msc, #conciertos{
+    display: inline-block;
+    width: 45%;     
+    background-color: rgba(156, 213, 204, 0.3);    
+    overflow: hidden;
+    border: none;        
+    margin: 10px;
+    text-align: center;     
+    min-height: 335px;
+}
+
+.contenido{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#buscarmusico, #buscarlocal{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#musicos button, #conciertos button{    
+    font-size: 1em;    
+    border-radius: 30%;
+    border-style: none;
+    background-color: transparent;
+}
+
+#msc{
+    margin-left: 30px;
+}
+
+#musicos table, #conciertos table{
+    width: 100%;
+}
+
+#buscadormusico, #buscadorlocal, #genero{
+    width: 200px;
+    display: inline-block;
+    padding: 0 15px;    
+    border-width: 0;
+    line-height: 30px;    
+    outline: none;
+    border-radius: 2px;
+    background-color: #85BFB1;    
+    color:#36213E;
+    height: 30px;
+    margin: 5px;
+}
+
+#musicos aside{
+    display: inline-block;
+    cursor: pointer;
+    width: 30px;
+    font-size: 55px;
+    margin-right: 59px;
+    margin-left: 84px;
+}
+
+#conciertos a{
+    color:#2D072B;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 55px;
+    text-decoration: none;
+}#table h1{font-family: 'Texto'; font-size: 30px;}

@@ -1,0 +1,64 @@
+.contenido{
+    min-height: 100%;    
+}
+
+#titulo h1{
+    margin-top: 25px;
+}
+
+.usuario{
+    margin-top: 45px;
+}
+
+.tablink {
+    background-color: rgba(85, 85, 85, 0.5);
+    color: white;    
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    width: 350px;
+    height: 100px;
+    margin: 0;
+    font-family:'Texto';
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {    
+    display: none;
+    padding: 100px 20px;     
+    width: 1010px;
+    text-align: center;
+}
+
+.tabcontent h1{    
+   margin-top: -50px;
+}
+
+.tabcontent table{    
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.tabcontent table button{    
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    
+}
+
+#acept {background-color: rgba(153, 203, 190, 0.5);}
+#cansel {background-color: rgba(249, 195, 186, 0.5);}
+#confirm {background-color: rgba(143, 92, 152, 0.5);}
+#susrib {background-color: rgba(255, 161, 170, 0.5);}
+
+#tablasLocal{margin: 50px 0 20px 90px;}
+
+@font-face {
+    font-family: 'Texto';
+    src: url('Quesha.ttf');
+}

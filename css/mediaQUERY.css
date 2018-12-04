@@ -1,0 +1,93 @@
+@media only screen and (max-width: 1024px) {       
+    #titulo h1 {font-size: 90px;}    
+    .login{width: 30%;}
+    #myLink, #myBtn{margin: 15px;}    
+    .contenido{display: block; width: 95%; margin-left: 20px; top: 20px;}  
+    .responsive{ width: 90%;}
+    .responsive img{width: 200px;}
+    #topList{display: block; width: 95%; margin: 30px 5px 10px 20px;}
+    .ranking{display: inline-block; width: 100%;}
+    #perfil{margin:30px 0 20px 190px;}
+}
+
+@media only screen and (max-width: 960px) {    
+    #titulo{  width: 55%;}
+    #titulo h1 {font-size: 75px;}    
+    .login{width: 35%; margin:15px 0 0 15px;}    
+    .contenido{display: block; width: 95%; margin-left: 10px; top: 20px;}
+    .responsive img{width: 250px;}
+    #myLink, #myBtn{margin: 20px;}
+    .contenido table{margin-left: 0px;}
+    #perfil{margin-left: 180px;}
+    #topList{width: 50%;}
+}
+
+@media only screen and (max-width: 850px) {    
+    #titulo{  width: 50%;}
+    #titulo h1 {font-size: 60px;}  
+    #myLink, #myBtn{margin: 10px;}
+    .responsive img{width: 200px;}
+    #perfil{margin-left: 150px;}
+    #topList{margin-left: 200px;}
+}
+
+@media only screen and (max-width: 740px) {  
+    #titulo h1 {font-size: 48px; margin-top: 10px;} 
+    .responsive img{width: 180px;}
+    .ranking{display: block; width: 100%; margin-left: -4px;}
+    #myLink, #myBtn{font-size: 15px;}
+    #perfil{margin-left: 125px;}
+    .popup_box{text-align: center;} 
+    body{font-size: 20px;}
+    .modal-content{width: 40%;}
+    .contenido table{font-size: 18px;}
+}
+
+@media only screen and (max-width: 650px) {
+    .responsive img{width: 150px; height: 150px;}
+    .login{width: 30%;}    
+    #titulo{width: 55%;}
+    #perfil{margin-left: 120px;}
+    .table_conciertos tr td:first-child, th:first-child{display: none;}
+}    
+    
+@media only screen and (max-width: 620px) {        
+    .login{width: 35%;}
+    #perfil{margin-left: 80px;}
+    #topList{width: 95%; margin-left: 10px;}
+}
+
+@media only screen and (max-width: 550px) {   
+    #myLink, #myBtn{margin-top: -3px;}
+    .login{width: 40%; float: none;}
+    .responsive{ width: 90%;}
+    .responsive img{width: 150px;}
+    .modal-content{width: 52%;}
+    .fa-2x{font-size: 1.5em;}
+    #perfil{margin-left: 150px;}
+    #titulo h1 {font-size: 40px;} 
+    .contenido table{font-size: 15px;}
+}
+
+@media only screen and (max-width: 460px) {          
+    #myLink, #myBtn{margin: 5px 0 0 20px; font-size: 10px;}       
+    .responsive img{width: 150px;}    
+    .contenido {margin-left: 5px;}
+    #topList{margin-left: 5px;}
+    #perfil{margin: 15px 0 0 120px;}
+    .login{width: 35%; margin: 10px 0 0 30px;}
+    #titulo h1 {font-size: 35px;} 
+    .contenido table{font-size: 10px;}
+}
+
+@media only screen and (max-width: 400px) {
+    #titulo h1 {font-size: 30px;}
+    #myLink, #myBtn{margin-top: 20px; font-size: 8px;}    
+    .contenido table{width: 90%; margin-left: 0;}
+    .contenido {margin-left: 5px;}
+    #topList{margin-left: 8px;}    
+    .popup_box{margin-left: 10px;}
+    #slider{margin-left: 15px;}
+    .login{width: 33%; margin-top:-10px; margin-right: 10px;}
+    #encabezado{height: 60px;}    
+}
